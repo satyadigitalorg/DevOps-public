@@ -27,10 +27,10 @@ public class HelloForm extends HttpServlet {
                 "<body bgcolor=\"#f0f0f0\">\n" +
                 "<h1 align=\"center\">" + title + "</h1>\n" +
                 "<ul>\n" +
-                "  <li><b>First Name</b>: "
-                + request.getParameter("first_name") + "\n" +
-                "  <li><b>Last Name</b>: "
-                + request.getParameter("surname_name") + "\n" +
+                "  <li><b>First_user_name</b>: "
+                + request.getParameter("First_user_name") + "\n" +
+                "  <li><b>Last_user_Name</b>: "
+                + request.getParameter("Last_user_name") + "\n" +
                 "</ul>\n" +
                 "</body></html>");
   }
