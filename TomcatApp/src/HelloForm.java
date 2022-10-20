@@ -27,8 +27,8 @@ public class HelloForm extends HttpServlet {
                 "<body bgcolor=\"#f0f0f0\">\n" +
                 "<h1 align=\"center\">" + title + "</h1>\n" +
                 "<ul>\n" +
-                "  <li><b>First Name</b>: "
-                + request.getParameter("first_name") + "\n" +
+                "  <li><b>User-First-Name</b>: "
+                + request.getParameter("user_first_name") + "\n" +
                 "  <li><b>Last Name</b>: "
                 + request.getParameter("surname_name") + "\n" +
                 "</ul>\n" +
