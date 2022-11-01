@@ -2,7 +2,7 @@ import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
 
-public class HelloForm extends HttpServlet {
+public class HelloForm extend HttpServlet {
  
   /**
 	 * 
