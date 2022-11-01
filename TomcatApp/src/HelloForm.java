@@ -2,7 +2,7 @@ import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
 
-public class HelloForm extends HttpServlet {
+public class HelloForm extend HttpServlet {
  
   /**
 	 * 
@@ -28,9 +28,9 @@ public class HelloForm extends HttpServlet {
                 "<h1 align=\"center\">" + title + "</h1>\n" +
                 "<ul>\n" +
                 "  <li><b>First Name</b>: "
-                + request.getParameter("first_name") + "\n" +
+                + request.getParameter("user name") + "\n" +
                 "  <li><b>Last Name</b>: "
-                + request.getParameter("surname_name") + "\n" +
+                + request.getParameter("last name") + "\n" +
                 "</ul>\n" +
                 "</body></html>");
   }
